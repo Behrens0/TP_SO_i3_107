@@ -25,3 +25,24 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX packets 64  bytes 5440 (5.3 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 21:15
+
+Martin Simone
+
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::28:78ff:fecb:71a3  prefixlen 64  scopeid 0x20<link>
+        ether 02:28:78:cb:71:a3  txqueuelen 1000  (Ethernet)
+        RX packets 57360  bytes 83398630 (83.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10793  bytes 838729 (838.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 92  bytes 9880 (9.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 92  bytes 9880 (9.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+21:18
