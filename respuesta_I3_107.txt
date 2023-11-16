@@ -10,3 +10,20 @@ c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merg
   153  git merge Simone/master
   154  git merge Simone
   155  git push origin main
+
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+No las ramas no actualizan los datos a menos que se haga un merge hacia la misma.
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+Al hacer crear el segundo branch (branch beta) pensamos que los archivos de main no se deberian haber incluido, 
+por lo tanto cometimos el error de eliminarlos y luego al tratar de hacer el merge se incluyo el commit realizado en 
+la rama beta que eliminaba todos los archivo. por esta razon tuvimos que reiniciar la rama a un commit anterior.
+
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+ git pull
+ git checkout Behrens
+ git status
+ git commit -m 'gamma modifica beta.txt'
+ git add beta.txt
+ git commit -m 'gamma modifica beta.txt'
+ git push origin Behrens
