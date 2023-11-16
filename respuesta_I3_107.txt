@@ -1,0 +1,12 @@
+a-¿Como queda El master después de estos cambios?
+El master queda con los cambios realizados en todas las ramas
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Si, a traves del historial de commits
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+  git checkout main
+  152  git merge Simone/main
+  153  git merge Simone/master
+  154  git merge Simone
+  155  git push origin main
