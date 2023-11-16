@@ -6,10 +6,10 @@ Si, a traves del historial de commits
 
 c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
   git checkout main
-  152  git merge Simone/main
-  153  git merge Simone/master
-  154  git merge Simone
-  155  git push origin main
+  git merge Simone/main
+  git merge Simone/master
+  git merge Simone
+  git push origin main
 
 d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
 No las ramas no actualizan los datos a menos que se haga un merge hacia la misma.
@@ -27,3 +27,12 @@ f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedi
  git add beta.txt
  git commit -m 'gamma modifica beta.txt'
  git push origin Behrens
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git pull
+git checkout Behrens
+git status
+git push origin Behrens
+git commit -m "Alfa modifica beta.txt"
+git commit -a -m "Alfa modifica beta.txt"
+git push origin Behrens
